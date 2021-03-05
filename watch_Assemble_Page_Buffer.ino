@@ -196,7 +196,7 @@ void specialDay(DateTime now){
       u8g2.setCursor(46, topBorder+83);
       u8g2.print("国庆节");
   }
-  else if(now.month() == 9 && now.day() == 27){
+  else if(now.month() == 1 && now.day() == 1){
       u8g2.setCursor(40, topBorder+83);
       u8g2.print("生日快乐");
   }
